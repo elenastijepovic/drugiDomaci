@@ -1,0 +1,141 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'PT Sans', sans-serif;
+  }
+  
+  .home,
+  .services,
+  .products,
+  .sign-up {
+    display: flex;
+    height: 90vh;
+    align-items: center;
+    justify-content: center;
+    font-size: 3rem;
+  }
+  
+  .team {
+    background-image: url('/src/images/team.jpg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: #fff;
+    font-size: 100px;
+    display: flex;
+  }
+    
+  
+  
+  .sign-up {
+    background-image: url('/src/images/bike.jpg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: #fff;
+    font-size: 100px;
+  }
+
+  .paragliding{
+    background-image: url('/src/images/Back.jpg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: rgb(184, 207, 177);
+    font-size: 24px;
+  
+  }
+
+  .paragliding > h1{
+    font-size: 60px;
+    margin-bottom: 10px;
+  }
+  .paragliding-text > h2{
+    display: flex;
+    justify-content: center;
+    color: rgb(135, 211, 125);
+    font-size:50px;
+
+  }
+  .paragliding-text > p{
+    display: flex;
+    justify-content: center;
+    padding: 40px;
+    margin:30px;
+    margin-left: 50px;
+    margin-right: 50px;
+
+  }
+
+  .canyon{
+    background-image: url('/src/images/back-can.jpg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: #fffafa;
+    font-size: 24px;
+  }
+  .canyon > h1{
+    font-size: 60px;
+    margin-bottom: 10px;
+    color: #ebe0e0;
+  }
+  .canyon-text > h2{
+    display: flex;
+    justify-content: center;
+    color: #ffffff;
+    font-size:50px;
+
+  }
+
+  .canyon-text > p{
+    display: flex;
+    justify-content: center;
+    padding: 40px;
+    margin:30px;
+    margin-left: 50px;
+    margin-right: 50px;
+
+  }
+
+  .bike{
+    background-image: url('/src/images/back-bike.jpg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: rgb(255, 255, 255);
+    font-size: 24px;
+  }
+  .bike > h1{
+    font-size: 60px;
+    color:rgb(0, 93, 31);
+  }
+  .bike-text > h2{
+    display: flex;
+    justify-content: center;
+    color: rgb(255, 255, 255);
+    font-size:50px;
+
+  }
+  .bike-text > p{
+    display: flex;
+    justify-content: center;
+    padding: 40px;
+    margin:30px;
+    margin-left: 50px;
+    margin-right: 50px;
+
+  }
+
+    
+    .info {
+    
+      background-position: center;
+      background-size: cover;
+      background-repeat: no-repeat;
+      color: rgb(245, 238, 238);
+      font-size: 60px;
+      display: flex;
+      flex-direction: column;
+    }
